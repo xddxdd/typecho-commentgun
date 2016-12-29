@@ -12,6 +12,3 @@ The original original author is [DEFE](http://defe.me).
 
 ## Installation
 Just drop the *CommentGun* folder into *usr/plugins/* folder under your Typecho installation, and enter your API key and domain into the control panel.
-
-## Credits
-[Mailgun](http://mailgun.com)
