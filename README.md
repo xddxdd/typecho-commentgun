@@ -2,6 +2,8 @@
 A plugin for typecho to notify readers of new comments by sending emails via Mailgun.
 
 This plugin is modified from [CommentToMail](https://github.com/byends/CommentToMail).
+The original author of CommentToMail is [Byends Upd.](http://www.byends.com).
+The original original author is [DEFE](http://defe.me).
 
 ## Modifications
 1. Changed sending method from Sendmail/SMTP to Mailgun API.
