@@ -148,10 +148,9 @@ class CommentGun_Plugin implements Typecho_Plugin_Interface
         }
         
         //向访客发信
-        if (0 != $email['parent ']
+        if (0 != $email['parent']
             && 'approved' == $email['status']
-            && in_array('to_guest', $cfg->other)
-            && !self::ban($email['parent'])) {
+            && in_array('to_guest', $cfg->other)) {
             //如果联系我的邮件地址为空，则使用文章作者的邮件地址
             if (empty($email['contactme'])) {
                 if (!isset($user) || !$user) {
